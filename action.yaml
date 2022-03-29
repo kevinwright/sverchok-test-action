@@ -1,0 +1,5 @@
+name: 'Sverchok Plugin test'
+description: 'Blender configured with all necessary deps to test sverchok'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
